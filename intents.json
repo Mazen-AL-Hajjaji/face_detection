@@ -1,0 +1,115 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "good day", "good morning", "greetings", "what's up", "how is it going", "yo", "howdy"],
+        "responses": ["Hello!", "Hey there!", "Hi!", "Good to see you!", "Howdy!", "Hey, what's up?", "Greetings!", "Hello, how can I help?", "Nice to meet you!", "Hey, hope you're having a great day!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you", "see you later", "take care", "farewell", "catch you later", "until next time", "talk to you soon", "later"],
+        "responses": ["Goodbye!", "See you later!", "Take care!", "Farewell!", "Catch you next time!", "Until we meet again!", "See you around!", "Stay safe!", "Bye for now!", "It was nice talking to you!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks", "thank you", "appreciate it", "thanks a lot", "many thanks", "thank you so much", "much obliged", "grateful", "thanks a ton", "i appreciate it"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!", "You're very welcome!", "Don't mention it!", "Glad I could assist!", "It's my pleasure!", "Always here to help!", "No worries!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["help", "can you help me?", "i need assistance", "i need help", "can you assist me?", "i'm stuck", "give me a hand", "could you guide me?", "i need support", "i need some help"],
+        "responses": ["Of course! What do you need help with?", "Sure, I'm here to assist!", "I'm happy to help! What’s the issue?", "Tell me how I can support you!", "I'll do my best to assist you!", "Yes! Let me know what you need!", "I'm here for you!", "Don't worry, I'm on it!", "Let's solve this together!", "What do you need help with?"]
+      },
+      {
+        "tag": "bot_identity",
+        "patterns": ["who are you?", "what are you?", "what is your name?", "are you a bot?", "what should I call you?", "are you an AI?", "what do you do?", "are you human?", "tell me about yourself", "do you have a name?"],
+        "responses": ["I'm an AI chatbot!", "You can call me your virtual assistant.", "I'm here to help you with anything you need.", "I'm just a friendly AI!", "I'm a chatbot designed to assist you!", "Think of me as your digital helper!", "You can call me whatever you like!", "I'm a smart assistant ready to help!", "I’m just a helpful AI companion!", "An AI friend at your service!"]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["what's the weather like?", "how's the weather?", "is it going to rain today?", "is it sunny outside?", "will it be cold today?", "is it hot outside?", "give me a weather update", "is it snowing?", "how is the weather looking?", "will it rain tomorrow?"],
+        "responses": ["I can check the weather for you! Which location are you interested in?", "Let me get the latest weather update for you!", "Tell me your location and I'll fetch the forecast!", "Checking the skies for you!", "Would you like a full weather report?", "Let me look that up for you!", "I’ll find the weather details right away!", "Just a moment, I'll check!", "Give me a second to find out!", "I'm fetching the forecast now!"]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["tell me a joke", "make me laugh", "say something funny", "got any jokes?", "entertain me", "i need a laugh", "give me a good joke", "make me smile", "say something humorous", "crack a joke"],
+        "responses": ["Why did the scarecrow win an award? Because he was outstanding in his field!", "Why don't skeletons fight each other? They don't have the guts.", "What did one ocean say to the other ocean? Nothing, they just waved!", "Why can’t your nose be 12 inches long? Because then it would be a foot!", "Why do cows have hooves instead of feet? Because they lactose!", "I told my wife she was drawing her eyebrows too high. She looked surprised!", "Parallel lines have so much in common. It’s a shame they’ll never meet!", "Why did the math book look sad? Because it had too many problems!", "Why don’t eggs tell jokes? Because they might crack up!", "What do you call fake spaghetti? An impasta!"]
+      },
+      {
+        "tag": "time",
+        "patterns": ["what time is it?", "can you tell me the time?", "what's the current time?", "give me the time", "what's the hour?", "tell me the time now", "what time is it right now?", "is it late?", "do you know the time?", "give me the current time"],
+        "responses": ["The current time is {current_time}.", "It's {current_time} right now.", "Checking the time for you!", "Let me fetch the exact time.", "Just a moment, let me check!", "The clock says {current_time}!", "Time flies! Right now it's {current_time}.", "According to my data, it's {current_time}.", "Here's the time: {current_time}.", "The exact time is {current_time}."]
+      },
+      {
+        "tag": "date",
+        "patterns": ["what's today's date?", "what is the date today?", "tell me the date", "what's the date?", "give me today's date", "do you know today's date?", "what day is it?", "tell me the current date", "give me the date", "what is the full date today?"],
+        "responses": ["Today's date is {current_date}.", "It's {current_date} today.", "Let me check... Today is {current_date}.", "The calendar shows {current_date}.", "According to my system, today is {current_date}.", "Mark your calendar! It's {current_date}.", "The date today is {current_date}.", "You're asking about the date? It's {current_date}.", "The full date today is {current_date}.", "Here you go: {current_date}."]
+      },
+      {
+        "tag": "mood",
+        "patterns": ["how are you?", "how do you feel?", "how's it going?", "are you okay?", "what's up with you?", "how have you been?", "how are you today?", "how's everything?", "what's your mood?", "how do you feel today?"],
+        "responses": ["I'm just a bot, but I'm here to help!", "I'm great! What about you?", "I don’t have feelings, but I’m always here for you!", "I feel like assisting you today!", "Bots don’t have moods, but I'm happy to chat!", "Feeling... AI-powered!", "I'm feeling as good as my code allows!", "Just another day in cyberspace!", "Ready to help you anytime!", "Excited to chat with you!"]
+      },
+      {
+        "tag": "capabilities",
+        "patterns": ["what can you do?", "how can you help me?", "what are your features?", "what services do you offer?", "what tasks can you perform?"],
+        "responses": [
+          "I can execute system commands like shutting down, restarting, locking your computer, and opening applications!",
+          "I can help you with system tasks like volume control, opening programs, and even answering basic questions.",
+          "I can assist with system management, basic conversations, and general queries!",
+          "I can chat with you, answer your questions, and control your computer with commands.",
+          "I can perform a variety of tasks! Just ask me!"
+        ]
+      },
+      {
+        "tag": "shutdown",
+        "patterns": ["shutdown my computer", "turn off the pc", "shut down now", "power off", "turn off my system", "close my computer", "shut my pc down", "turn off now"],
+        "responses": ["Shutting down now...", "Goodbye!", "Turning off your computer...", "Powering down!", "Your system will shut down now."]
+      },
+      {
+        "tag": "restart",
+        "patterns": ["restart my computer", "reboot my pc", "restart now", "reboot system", "restart the system", "turn off and restart", "reset my computer", "restart device"],
+        "responses": ["Restarting your PC...", "Hold on, rebooting now.", "Your system will restart now.", "System rebooting!", "Restarting in progress..."]
+      },
+      {
+        "tag": "sleep",
+        "patterns": ["put my pc to sleep", "enable sleep mode", "suspend my system", "go to sleep", "sleep now", "hibernate my pc", "make my laptop sleep", "activate sleep mode"],
+        "responses": ["Entering sleep mode...", "Going to sleep now.", "System is now in sleep mode.", "Sleeping... Wake me when you need me!", "PC is now in standby mode."]
+      },
+      {
+        "tag": "lock",
+        "patterns": ["lock my pc", "lock my screen", "secure my computer", "lock now", "activate lock screen", "lock my laptop", "enable security lock", "log me out and lock"],
+        "responses": ["Locking your system...", "Your PC is now locked.", "Screen locked successfully!", "Locking device for security.", "Your session is now locked."]
+      },
+      {
+        "tag": "logoff",
+        "patterns": ["log me off", "log out now", "sign out", "exit my session", "log off user", "switch account", "end my session", "disconnect my account"],
+        "responses": ["Logging off...", "Signing out now.", "You have been logged out.", "Session ended successfully.", "Logging out, see you soon!"]
+      },
+      {
+        "tag": "open_application",
+        "patterns": ["open chrome", "start firefox", "launch notepad", "open word", "run excel", "launch command prompt", "open calculator", "start paint", "open netflix"],
+        "responses": ["Opening application...", "Launching now.", "Here you go!", "Starting the requested app.", "Executing your command!"]
+      },
+      {
+        "tag": "increase_volume",
+        "patterns": ["increase the volume", "make it louder", "turn up the sound", "raise the volume", "volume up", "boost my speakers", "maximize the sound", "increase the audio level"],
+        "responses": ["Increasing volume...", "Volume up!", "Turning it up for you!", "Boosting sound level!", "Your speakers are now louder."]
+      },
+      {
+        "tag": "decrease_volume",
+        "patterns": ["decrease the volume", "make it quieter", "turn down the sound", "lower the volume", "volume down", "reduce the audio level", "minimize the sound", "decrease the speaker level"],
+        "responses": ["Decreasing volume...", "Volume down!", "Turning it down for you.", "Reducing sound level.", "Your speakers are now quieter."]
+      },
+      {
+        "tag": "mute",
+        "patterns": ["mute the sound", "turn off audio", "stop the sound", "disable audio", "silent mode", "shut off sound", "mute my speakers", "silence the audio"],
+        "responses": ["Muting the sound!", "Silence mode activated.", "Audio disabled.", "Your system is now muted!", "Sound is turned off."]
+      },
+      {
+        "tag": "unmute",
+        "patterns": ["unmute the sound", "turn audio back on", "enable audio", "turn sound on", "sound on please", "activate audio", "bring back sound", "restore volume"],
+        "responses": ["Unmuting the sound!", "Audio is back!", "Sound enabled.", "You can hear again!", "Turning the sound back on."]
+      }
+    ]
+  }
